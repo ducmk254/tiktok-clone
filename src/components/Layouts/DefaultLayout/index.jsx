@@ -5,7 +5,7 @@ import Sidebar from '~/components/Layouts/components/Sidebar'
 
 export default function DefaultLayout({ children }) {
     return (
-        <div>
+        <>
             <Header />
             <div className='container'>
                 <Sidebar />
@@ -13,6 +13,6 @@ export default function DefaultLayout({ children }) {
                     {children}
                 </div>
             </div>
-        </div>
+        </>
     )
 }
