@@ -1,3 +1,4 @@
+import HeaderOnly from '~/components/Layouts/HeaderOnly';
 import Following from '~/Pages/Following'
 import Home from '~/Pages/Home';
 import Profile from '~/Pages/Profile';
@@ -20,7 +21,7 @@ const publicRoute = [
     {
         path: '/upload',
         component: Upload,
-        layout: null
+        layout: HeaderOnly
     }
 ]
 const privateRoute = [
